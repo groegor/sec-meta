@@ -7,7 +7,7 @@ from secmeta import Submissions
 #df_ticker = Submissions(ticker="GOOGL", form="10-K", name="John Doe", email="example@email.com").to_dataframe()
 
 
-df_csv = Submissions(csv_path="input_companies.csv", form="10-k", year_from = 2015, year_to = 2025, name="Philipp", email="philipp@example.com").to_dataframe()
+df_csv = Submissions(csv_path="input_companies.csv", form="10-k", year_from = 2015, year_to = 2025, name="Your Name", email="johndoe@example.com").to_dataframe()
 
 # Result
 print(list(df_csv))
